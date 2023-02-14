@@ -1,0 +1,30 @@
+{
+  "name": "ami-cli",
+  "version": "1.0.0",
+  "description": "前端脚手架ami-cli，通过命令行生成项目",
+  "main": "index.js",
+  "repository": "https://github.com/flexible-coder/ami-cli",
+  "bin": {
+    "ami": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "脚手架"
+  ],
+  "author": "kxm",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  }
+}
